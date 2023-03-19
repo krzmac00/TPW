@@ -1,0 +1,21 @@
+﻿<Window x:Class="Program_przykładowy.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Program_przykładowy"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+	<StackPanel>
+		<TextBlock x:Name="nazwa_programu" FontSize="16" Margin="5" Width="500" TextAlignment="Center" Text="Program testowy - kalkulator potęg całkowitych"/>
+		<TextBlock x:Name="polecenie" FontSize="12" Margin="5" Width="500" TextAlignment="Center" Text="Wpisz liczbę i potęgę:"/>
+		<StackPanel Orientation="Horizontal" HorizontalAlignment="Center">
+			<TextBox x:Name="pole_tekstowe_liczba" Width="25"></TextBox>
+			<TextBlock x:Name="do_potegi" TextAlignment="Center" Text="^"/>
+			<TextBox x:Name="pole_tekstowe_potega" Width="25"></TextBox>
+			<TextBlock x:Name="wynik_txt" TextAlignment="Center" Text="= ?"/>
+		</StackPanel>
+		<Button x:Name="przycisk_oblicz" Content="Oblicz" Margin="10"  Height="20" Width="70" Click="Przycisk_Oblicz_Click" Foreground="Blue"></Button>
+		<TextBlock x:Name="blad" FontSize="14" Foreground="Red" Margin="5" Width="500" TextAlignment="Center" Text=""/>
+	</StackPanel>
+</Window>

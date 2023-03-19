@@ -4,5 +4,5 @@
 
 | Name Surname (initials) | GUID                                     |
 | ----------------------- | ---------------------------------------- |
-| Krzysztof Macherzyński  | `{82502787-b80d-4f6b-8512-1967511985b1}` |
-| Patrycja Przybylska     | `{9be19135-be4e-40f2-9825-4cc0d55f2fbf}` |
+| Krzysztof Macherzyński  | `{FD9D086C-532F-4AAC-BB99-69D7798837D8}` |
+| Patrycja Przybylska     | `{cf3bca28-6668-4e26-9220-17b85da8a064}` |
